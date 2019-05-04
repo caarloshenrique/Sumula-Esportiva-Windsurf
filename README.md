@@ -19,6 +19,11 @@
 
 ## Getting Started
 
+<img align="left" width="130" height="130" src="/img/materialize_logo.png">
+
+### Materialize
+Materialize is a modern responsive CSS framework based on Material Design by Google.
+
 ### Installing Materilize
 
 You can also get the latest release using NPM. This release contains source files as well as the compiled CSS and JavaScript files.
@@ -28,7 +33,7 @@ $ npm install materialize-css@next
 ```
 <img align="left" width="130" height="130" src="/img/logo_firebase.png">
 
-## Firebase
+### Firebase
 O Firebase é uma plataforma de desenvolvimento de aplicativos para dispositivos móveis e Web desenvolvida pela Firebase.
 
 ### Executar um servidor da Web local para desenvolvimento
