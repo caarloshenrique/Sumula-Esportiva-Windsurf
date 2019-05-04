@@ -26,7 +26,10 @@ You can also get the latest release using NPM. This release contains source file
 ```
 $ npm install materialize-css@next
 ```
+<img align="left" width="130" height="130" src="/img/logo_firebase.png">
+
 ## Firebase
+O Firebase é uma plataforma de desenvolvimento de aplicativos para dispositivos móveis e Web desenvolvida pela Firebase.
 
 ### Executar um servidor da Web local para desenvolvimento
 Ao criar um app da Web, algumas partes do SDK para JavaScript do Firebase exigem que seu app seja hospedado por um servidor, em vez de um sistema de arquivos local. Você pode usar a Firebase CLI para executar um servidor local deste modo:
