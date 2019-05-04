@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+}
+
+#form-servidor,
+#relatorio-servidores {
+  width: 50%;
+}
+
+input {
+  display: block;
+}

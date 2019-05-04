@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="css/waves.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Regatas</title>
+</head>
+
+<body>
+
+  <!-- Navbar goes here -->
+
+  <nav class="nav-extended">
+    <div class="nav-wrapper">
+      <p data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></p>
+      <a href="#" class="brand-logo center">Windsurf</a>
+
+    </div>
+    <div class="nav-content container scrollmenu">
+      <ul class="tabs tabs-transparent center">
+        <li class="tab"><a href="#regata1">Regata 1</a></li>
+        <li class="tab"><a href="#regata2">Regata 2</a></li>
+        <li class="tab"><a href="#regata3">Regata 3</a></li>
+        <li class="tab"><a href="#regata4">Regata 4</a></li>
+        <li class="tab"><a href="#regata5">Regata 5</a></li>
+        <li class="tab"><a href="#regata6">Regata 6</a></li>
+        <li class="tab"><a href="#regata7">Regata 7</a></li>
+        <li class="tab"><a href="#regata8">Regata 8</a></li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <!-- Page Layout here -->
+
+  <ul id="slide-out" class="side-nav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/office.jpg">
+      </div>
+      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+      <a href="#!name"><span class="white-text name">John Doe</span></a>
+      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href=""><i class="fa fa-home" style="font-size:26px"></i>Home</a></li>
+    <li><a href="campeonato.html"><i class="fa fa-flag" style="font-size:24px"></i>Campeonatos</a></li>
+    <li><a href="comissao.html"><i class="fa fa-university" style="font-size:24px"></i>Comissões</a></li>
+    <li><a href="tecnico.html"><i class="fa fa-group" style="font-size:24px"></i>Técnicos</a></li>
+    <li><a href="competidor.html"><i class="fa fa-user-circle" style="font-size:26px"></i>Competidores</a></li>
+    <li><a href="regatas.html"><i class="fa fa-sitemap" style="font-size:24px"></i>Regatas</a></li>
+    <li><a href="resultado.html"><i class="fa fa-trophy" style="font-size:24px"></i>Resultado</a></li>
+  </ul>
+
+  <div id="waves" class="waves">
+    <div class="wave wave_1"></div>
+    <div class="wave wave_2"></div>
+    <div class="wave wave_3"></div>
+    <div class="wave wave_4"></div>
+    <div class="wave wave_5"></div>
+  </div>
+
+  <div class="row">
+
+    <div class="col s12 m12 l12">
+      <div class="container">
+      <!-- <div class="card transparent">
+        <div class="card-content"> -->
+
+          <div id="regata1" class="col s12">
+            Regata 1
+            <ul title="competidores" class="lista1 demo-list-two mdl-list">
+
+
+            </ul>
+          </div>
+          <div id="regata2" class="col s12">
+            Regata 2
+            <ul title="competidores" class="lista2 demo-list-two mdl-list">
+
+
+            </ul>
+          </div>
+          <div id="regata3" class="col s12">
+            Regata 3
+            <ul title="competidores" class="lista3 demo-list-two mdl-list">
+
+
+            </ul>
+          </div>
+          <div id="regata4" class="col s12">
+            Regata 4
+            <ul title="competidores" class="lista4 demo-list-two mdl-list">
+
+
+            </ul>
+          </div>
+          <div id="regata5" class="col s12">
+            Regata 5
+            <ul title="competidores" class="lista5 demo-list-two mdl-list">
+
+
+            </ul>
+          </div>
+          <div id="regata6" class="col s12">
+            Regata 6
+            <ul title="competidores" class="lista6 demo-list-two mdl-list">
+
+
+            </ul>
+          </div>
+          <div id="regata7" class="col s12">
+            Regata 7
+            <ul title="competidores" class="lista7 demo-list-two mdl-list">
+
+
+            </ul>
+          </div>
+          <div id="regata8" class="col s12">
+            Regata 8
+            <ul title="competidores" class="lista8 demo-list-two mdl-list">
+
+
+            </ul>
+          </div>
+        <!-- </div>
+      </div> -->
+    </div>
+</div>
+
+  </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+  <script src="js/add-firebase.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <script type="text/javascript" src="js/list-regata1.js"></script>
+  <script type="text/javascript" src="js/list-regata2.js"></script>
+  <script type="text/javascript" src="js/list-regata3.js"></script>
+  <script type="text/javascript" src="js/lis-regata4.js"></script>
+  <script type="text/javascript" src="js/lis-regata5.js"></script>
+  <script type="text/javascript" src="js/list-regata6.js"></script>
+  <script type="text/javascript" src="js/list-regata7.js"></script>
+  <script type="text/javascript" src="js/list-regata8.js"></script>
+  <!-- <script type="text/javascript" src="js/list-competidor.js"></script> -->
+  <!-- <script type="text/javascript" src="js/menu.js"></script> -->
+</body>
+</html>

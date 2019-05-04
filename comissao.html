@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="css/waves.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Comissão Técnica</title>
+</head>
+
+<body>
+  <!-- Navbar goes here -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <p data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></p>
+        <a href="#" class="brand-logo center">Windsurf</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!-- <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">JavaScript</a></li> -->
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Page Layout here -->
+
+  <ul id="slide-out" class="side-nav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/office.jpg">
+      </div>
+      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+      <a href="#!name"><span class="white-text name">John Doe</span></a>
+      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href=""><i class="fa fa-home" style="font-size:26px"></i>Home</a></li>
+    <li><a href="campeonato.html"><i class="fa fa-flag" style="font-size:24px"></i>Campeonatos</a></li>
+    <li><a href="comissao.html"><i class="fa fa-university" style="font-size:24px"></i>Comissões</a></li>
+    <li><a href="tecnico.html"><i class="fa fa-group" style="font-size:24px"></i>Técnicos</a></li>
+    <li><a href="competidor.html"><i class="fa fa-user-circle" style="font-size:26px"></i>Competidores</a></li>
+    <li><a href="regatas.html"><i class="fa fa-sitemap" style="font-size:24px"></i>Regatas</a></li>
+    <li><a href="resultado.html"><i class="fa fa-trophy" style="font-size:24px"></i>Resultado</a></li>
+  </ul>
+
+
+
+    <div id="waves" class="waves">
+      <div class="wave wave_1"></div>
+      <div class="wave wave_2"></div>
+      <div class="wave wave_3"></div>
+      <div class="wave wave_4"></div>
+      <div class="wave wave_5"></div>
+    </div>
+
+    <!-- Modal Structure -->
+      <div id="modal2" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4 class="center">Lista de Comissões</h4>
+          <ul title="comissao" class="lista demo-list-two mdl-list">
+
+
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Fechar</a>
+        </div>
+      </div>
+
+
+    <div class="row">
+
+      <div id="comissao" class="col s12 m12 l12">
+        <div class="row">
+          <div class="container">
+            <div class="container">
+
+              <div class="card white">
+                <div class="card-content">
+                  <div class="row">
+                    <h5 class="center">Nova Comissão</h5>
+
+                    <div class="container">
+                      <div class="col s12 m12 l12">
+
+
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">account_circle</i>
+                          <input id="nomeComissao" type="text" class="validate" required="required">
+                          <label for="nomeTecnico">Nome</label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="container">
+                        <div class="col s12 m12 l12">
+                          <div class="input-field col s12">
+                            <i class="material-icons prefix">mode_edit</i>
+                            <textarea required id="descricaoComissao" class="materialize-textarea"></textarea>
+                            <label for="descricaoComissao">Descrição do Campeonato</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="container">
+                      <div class="col s8 m8 l8 offset-l2">
+                        <div class="input-field">
+
+                          <select id="campeonatos" class="list" title="option">
+
+                          </select>
+                          <label>Campeonato</label>
+
+                        </div>
+                      </div>
+                    </div> -->
+
+
+                  </div>
+                  <div class="botaol container">
+                    <div class="col s2 m2 l2">
+                      <center><button id="editar" class="btn-floating btn-large waves-effect waves-light blue darken-1" type="submit"><i class="material-icons">mode_edit</i></button><center>
+                      </div>
+                      <div class="col s2 m2 l2">
+                        <center><button id="visualizar" data-target="modal2" class="btn-floating btn-large waves-effect waves-light blue darken-1" type="submit"><i class="material-icons">visibility</i></button><center>
+                        </div>
+                        <div class="col s2 m2 l2">
+                          <center><button id="limpar" class="btn-floating btn-large waves-effect waves-light blue darken-1" type="submit"><i class="material-icons">replay</i></button><center>
+                          </div>
+                          <div class="col s2 m2 l2">
+                            <center><a id="enviar" class="btn-floating btn-large waves-effect waves-light blue darken-1"><i class="material-icons">done</i></a><center>
+                            </div>
+                            <div class="col s4 m4 l4">
+                              <center><a id="enviar" href="tecnico.html" class="btn-floating btn-large waves-effect waves-light blue darken-1 right" type="submit"><i class="material-icons">send</i></a><center>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+
+            <footer class="page-footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                  </div>
+                  <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                      <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-copyright">
+                <div class="container">
+                  © 2014 Copyright Text
+                  <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+              </div>
+            </footer>
+
+            <!--Import jQuery before materialize.js-->
+            <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script type="text/javascript" src="js/materialize.js"></script>
+            <script src="js/add-firebase.js"></script>
+            <script src="js/add-comissao.js"></script>
+            <script src="js/comissao-list.js"></script>
+            <script src="js/relacionar-campeonato.js"></script>
+            <script src="js/campeonato-list-all.js"></script>
+            <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+          </body>
+          </html>
