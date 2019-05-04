@@ -19,7 +19,7 @@
 
 ## Getting Started
 
-<img align="left" width="130" height="130" src="/img/materialize_logo.png">
+<img align="left" width="130" height="110" src="/img/materialize_logo.png">
 
 ### Materialize
 Materialize is a modern responsive CSS framework based on Material Design by Google.
