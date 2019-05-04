@@ -5,19 +5,17 @@
 
 <img src="/img/campeonato.PNG">
 
-### Galery
+### Comissao
 
-<img src="/img/galeria.PNG">
+<img src="/img/comissao.PNG">
 
-### Forms
+### Técnicos
 
-<img src="/img/form-1.PNG">
+<img src="/img/tecnico.PNG">
 
-<img src="/img/form-2.PNG">
+### Competidor
 
-### Contact
-
-<img src="/img/contato.PNG">
+<img src="/img/competidor.PNG">
 
 ## Getting Started
 
