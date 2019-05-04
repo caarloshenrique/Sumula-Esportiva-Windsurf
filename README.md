@@ -42,4 +42,5 @@ $ firebase serve   # Start development server
 ## Built With
 
 * [Materialize](https://materializecss.com/) - The web framework used
+* [Firebase](https://firebase.google.com/) - The database used
 
