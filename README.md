@@ -5,7 +5,7 @@
 
 <img src="/img/campeonato.PNG">
 
-### Comissao
+### Comissão
 
 <img src="/img/comissao.PNG">
 
