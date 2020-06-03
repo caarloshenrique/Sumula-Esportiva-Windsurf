@@ -1,4 +1,4 @@
-# Sumula-Esportiva-Windsurf
+# sumula-esportiva-windsurf
 🌊 Sistema web desenvolvido para registro de campeonatos de windsurf, utilizando a ferramenta Materialize para a disciplina de Desenvolvimento Web 2
 
 ### Campeonato
