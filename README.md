@@ -1,19 +1,19 @@
 # sumula-esportiva-windsurf
 🌊 Sistema web desenvolvido para registro de campeonatos de windsurf, utilizando a ferramenta Materialize para a disciplina de Desenvolvimento Web 2
 
-### Campeonato
+### :surfer: Campeonato
 
 <img src="/img/campeonato.PNG">
 
-### Comissão
+### :loudspeaker: Comissão
 
 <img src="/img/comissao.PNG">
 
-### Técnicos
+### :busts_in_silhouette: Técnicos
 
 <img src="/img/tecnico.PNG">
 
-### Competidor
+### :bust_in_silhouette: Competidor
 
 <img src="/img/competidor.PNG">
 
